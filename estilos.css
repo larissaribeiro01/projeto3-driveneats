@@ -128,9 +128,11 @@ img {
 }
 
 .selecionado {
-    background-color:  green;
+    border:  3px solid green;
     
 }
+
+
 
 .caixasobremesa {
     width: 172px;

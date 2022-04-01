@@ -1,6 +1,6 @@
 function EscolherPrato(prato) {
     const pratoClicado=document.querySelector("."+ prato);
-    const pratoSelecionado=document.querySelector(".selecionado");
+    const pratoSelecionado=document.querySelector(".pratos").querySelector(".selecionado");
     if (pratoSelecionado !== null) {
         pratoSelecionado.classList.remove('selecionado')
     }
@@ -10,7 +10,7 @@ function EscolherPrato(prato) {
 
 function EscolherBebida(bebida) {
     const bebidaClicado=document.querySelector("."+ bebida);
-    const bebidaSelecionado=document.querySelector(".selecionado");
+    const bebidaSelecionado=document.querySelector(".bebidas").querySelector(".selecionado");
     if (bebidaSelecionado !== null) {
         bebidaSelecionado.classList.remove('selecionado')
     }
@@ -20,7 +20,7 @@ function EscolherBebida(bebida) {
 
 function EscolherSobremesa(sobremesa) {
     const sobremesaClicado=document.querySelector("."+ sobremesa);
-    const sobremesaSelecionado=document.querySelector(".selecionado");
+    const sobremesaSelecionado=document.querySelector(".sobremesas").querySelector(".selecionado");
     if (sobremesaSelecionado !== null) {
         sobremesaSelecionado.classList.remove('selecionado')
     }
