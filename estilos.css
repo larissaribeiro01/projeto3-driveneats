@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100;200;300;400;500;600;700&family=Righteous&family=Roboto:wght@100;300;400&display=swap');
+
+.fonterighteous {
+    font-family: 'Righteous', sans-serif;
+
+}
+
+.fonteroboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+.barravermelhatopo {
+    position: fixed;
+    top: 0px;
+    width: 414px;
+    height: 92px;
+    background-color: #CF2B2B;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 17px;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+}
+.barravermelhatopo h1 {
+    color: #FFFFFF;
+    font-size: 44px;
+}
+
+.barravermelhatopo h2 {
+    color: #FFFFFF;
+    font-size: 18px;
+}
+
+.barrafundo {
+    position: fixed;
+    width: 414px;
+    height: 92px;
+    bottom: 0px;
+    width: 414px;
+    height: 92px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+body {
+    background-color: #E5E5E5;
+    width: 414px;
+    
+}
+.container {
+    margin-top: 123px;
+    
+    
+}
+
+.titulo {
+    font-size: 26px;
+    color: #333333;
+    margin-top: 17px;
+    margin-left: 17px;
+}
+
+.pratos {
+    display: flex;
+    scrollbar-width: none;
+    overflow-x: scroll;
+    
+
+}
+
+
+
+.bebidas {
+    display: flex;
+    scrollbar-width: none;
+    overflow-x: scroll;
+    
+}
+
+
+
+.sobremesas {
+    display: flex;
+    scrollbar-width: none;
+    overflow-x: scroll;
+    margin-bottom: 92px;
+    
+    
+
+    
+}
+
+.caixaprato {
+    width: 172px;
+    height: 216px;
+    margin: 16px;
+    background-color: #FFFFFF;
+    border-radius: 9px;
+    padding: 14px; 
+    border:  3px solid #FFFFFF;
+    box-sizing: border-box;
+    
+    
+}
+
+img {
+    width: 144px;
+    height: 87px;
+    border-radius: 4px;
+    
+    
+    
+}
+
+.caixabebida {
+    width: 172px;
+    height: 202px;
+    margin: 16px;
+    background-color: #FFFFFF;
+    border-radius: 9px;
+    border:  3px solid #FFFFFF;
+    padding: 14px;
+    box-sizing: border-box;
+}
+
+.selecionado {
+    background-color:  green;
+    
+}
+
+.caixasobremesa {
+    width: 172px;
+    height: 197px;
+    margin: 16px;
+    background-color: #FFFFFF;
+    border-radius: 9px;
+    border:  3px solid #FFFFFF;
+    padding: 14px;
+    box-sizing: border-box;
+}
+
+.Nome {
+    font-size: 16px;
+    color:#333333;
+    font-weight: 700;
+    margin-top: 9px;
+}
+
+.preco {
+    font-size: 16px;
+    color:#333333;
+    font-weight: 400;
+    margin-top: 9px;
+} 
+
+.descricao {
+    font-size: 15px;
+    color: #A6A6A6;
+    font-weight: 300;
+    margin-top: 9px;
+
+}
+
+.botão {
+    width: 364px;
+    height: 61px;
+    border-radius: 50px;
+    background-color: #CBCBCB;
+    font-size: 20px;
+    color: #FFFFFF;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}

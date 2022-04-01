@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto3-DrivenEats</title>
+    
+    
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="barravermelhatopo">
+        <h1 class="fonterighteous">DrivenEats</h1>
+        <h2 class="fonteroboto">Sua comida em 6 minutos</h2>
+    </div>
+    <div class="container">
+        <h1 class="titulo fonterighteous">Primeiro, seu prato</h1>
+        <!--adicionar os pratos aqui embaixo  -->
+        <div class="pratos">
+            <div  class="caixaprato frangofrito"  onclick="EscolherPrato('frangofrito')">
+                <img src="/Imagens/frango_yin_yang 1.png" />
+                <h3 class="fonteroboto Nome">Frango Frito</h3>
+                <h4 class="fonteroboto descricao">Um pouco de batata, um pouco de salada</h4>
+                <h5 class="fonteroboto preco">R$14,90</h5>
+            </div>
+            <div class="caixaprato frangoxadrez" onclick="EscolherPrato('frangoxadrez')"> 
+                <img src="/Imagens/frango_yin_yang 1.png" />
+                <h3 class="fonteroboto Nome">Frango Xadrez</h3>
+                <h4 class="fonteroboto descricao">Um pouco de batata, um pouco de salada</h4>
+                <h5 class="fonteroboto preco">R$14,90</h5>
+            </div>
+            <div class="caixaprato frangogrelhado"  onclick="EscolherPrato('frangogrelhado')">
+                <img src="/Imagens/frango_yin_yang 1.png" />
+                <h3 class="fonteroboto Nome">Frango Grelhado</h3>
+                <h4 class="fonteroboto descricao">Um pouco de batata, um pouco de salada</h4>
+                <h5 class="fonteroboto preco">R$14,90</h5>
+            </div>
+        </div>
+
+        <h1 class="titulo fonterighteous">Agora, sua bebida</h1>
+        <!--adicionar as bebidas aqui embaixo  -->
+        <div class="bebidas">
+            <div class="caixabebida cocalata"  onclick="EscolherBebida('cocalata')">
+                <img src="Imagens/coquinha_gelada 1.png" />
+                <h3 class="fonteroboto Nome">Coca Lata</h3>
+                <h4 class="fonteroboto descricao">350ml</h4>
+                <h5 class="fonteroboto preco">R$4,90</h5>
+            </div>
+            <div class="caixabebida coca600"  onclick="EscolherBebida('coca600')">
+                <img src="Imagens/coquinha_gelada 1.png" />
+                <h3 class="fonteroboto Nome">Coca 600 mL</h3>
+                <h4 class="fonteroboto descricao">600ml</h4>
+                <h5 class="fonteroboto preco">R$6,90</h5>
+            </div>
+            <div class="caixabebida coca2L"  onclick="EscolherBebida('coca2L')">
+                <img src="Imagens/coquinha_gelada 1.png" />
+                <h3 class="fonteroboto Nome">Coca-Cola 2L</h3>
+                <h4 class="fonteroboto descricao">2L</h4>
+                <h5 class="fonteroboto preco">R$10,90</h5>
+            </div>
+    
+        </div>
+
+        <h1 class="titulo fonterighteous">Por fim, sua sobremesa</h1>
+        <!--adicionar as sobremesas aqui embaixo  -->
+        <div class="sobremesas">
+            <div class="caixasobremesa pudimpequeno" onclick="EscolherSobremesa('pudimpequeno')">
+                <img src="Imagens/pudim 1.png" />
+                <h3 class="fonteroboto Nome">Pudim Pequeno</h3>
+                <h4 class="fonteroboto descricao">Apenas pudim</h4>
+                <h5 class="fonteroboto preco">R$4,90</h5>
+            </div>
+            <div class="caixasobremesa pudimmedio" onclick="EscolherSobremesa('pudimmedio')">
+                <img src="Imagens/pudim 1.png" />
+                <h3 class="fonteroboto Nome">Pudim Médio</h3>
+                <h4 class="fonteroboto descricao">Apenas pudim</h4>
+                <h5 class="fonteroboto preco">R$7,90</h5>
+            </div>
+            <div class="caixasobremesa pudimgrande" onclick="EscolherSobremesa('pudimgrande')">
+                <img src="Imagens/pudim 1.png" />
+                <h3 class="fonteroboto Nome">Pudim Grande</h3>
+                <h4 class="fonteroboto descricao">Apenas pudim</h4>
+                <h5 class="fonteroboto preco">R$9,90</h5>
+            </div>
+            
+            
+        </div>
+        <div class="barrafundo">
+            <div class="botão fonteroboto">Selecione os 3 itens para fechar o pedido</div>
+        </div>
+
+    </div>
+<script src="scripts.js"></script>    
+</body>
+</html>
