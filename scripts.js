@@ -57,7 +57,7 @@ function ClicarFinalizar () {
     precoSobremesa=document.querySelector("."+sobremesaEscolhida).querySelector(".preco").innerHTML;
 
     let mensagem = "Olá, gostaria de fazer o pedido: \n" +prato+": " +precoPrato+ "\n" +bebida+": " +precoBebida+ "\n" +sobremesa+": " +precoSobremesa+ "\n" 
-    alert(mensagem)
+    
     if (finalizar == true) {
         window.open("https://wa.me/5521999999999?text="+mensagem);
     }
