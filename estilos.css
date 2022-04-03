@@ -66,31 +66,21 @@ body {
 
 .pratos {
     display: flex;
-    scrollbar-width: none;
     overflow-x: scroll;
-    
-
 }
-
 
 
 .bebidas {
     display: flex;
-    scrollbar-width: none;
-    overflow-x: scroll;
-    
+    overflow-x: scroll;  
 }
 
 
 
 .sobremesas {
     display: flex;
-    scrollbar-width: none;
     overflow-x: scroll;
     margin-bottom: 92px;
-    
-    
-
     
 }
 
@@ -127,10 +117,7 @@ img {
     box-sizing: border-box;
 }
 
-.selecionado {
-    border:  3px solid green;
-    
-}
+
 
 
 
@@ -143,6 +130,11 @@ img {
     border:  3px solid #FFFFFF;
     padding: 14px;
     box-sizing: border-box;
+}
+
+.selecionado {
+    border:  3px solid green;
+    
 }
 
 .Nome {
@@ -177,5 +169,17 @@ img {
     display: flex;
     justify-items: center;
     align-items: center;
+    text-align: center;
+}
+
+.finalizarpedido {
+    width: 364px;
+    height: 61px;
+    border-radius: 50px;
+    background-color: green;
+    font-size: 20px;
+    color: #FFFFFF;
+    display: flex;
+    justify-items: center;
     text-align: center;
 }
